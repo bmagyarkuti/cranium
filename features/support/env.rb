@@ -5,8 +5,8 @@ require_relative "../../lib/cranium"
 FileUtils.mkdir_p("log") unless Dir.exists?("log")
 
 Cranium.configure do |config|
-  config.greenplum_connection_string = "postgres://cranium:cranium@#{ENV['DATABASE_HOST'] || '192.168.56.43'}:5432/cranium"
-  config.gpfdist_url = "#{ENV['DATABASE_HOST'] || '192.168.56.43'}:8123"
+  config.greenplum_connection_string = "postgres://cranium:cranium@#{ENV['GREENPLUM_HOST'] || '192.168.56.43'}:5432/cranium"
+  config.gpfdist_url = "#{ ENV['GPFDIST_HOST'] || '192.168.56.43'}:8123"
   config.gpfdist_home_directory = "tmp/custdata"
   config.upload_directory = "cranium_build"
   config.loggers << Logger.new("log/cucumber.log")
