@@ -25,3 +25,4 @@ ARG http_proxy
 RUN bundle install -j 5
 COPY . .
 COPY .env.jenkins ./.env
+RUN mkdir /tmp/custdata/

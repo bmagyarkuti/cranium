@@ -1,3 +1,4 @@
+*.aes
 *.gem
 *.rbc
 .bundle
