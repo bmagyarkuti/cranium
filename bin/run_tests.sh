@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-sleep 30
+dockerize -wait tcp://greenplum:5432 -timeout 1m
 bundle exec rake
