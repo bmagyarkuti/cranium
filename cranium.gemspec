@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.test_files = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
-  spec.add_runtime_dependency 'pg', '~> 1'
+  spec.add_runtime_dependency 'pg', '>= 0'
   spec.add_runtime_dependency 'progressbar', '~> 0'
   spec.add_runtime_dependency 'sequel', '>= 4', '< 6'
   spec.add_runtime_dependency 'slop', '~> 3'
