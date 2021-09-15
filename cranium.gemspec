@@ -13,13 +13,13 @@ Gem::Specification.new do |spec|
   spec.test_files = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
-  spec.add_runtime_dependency 'pg', '~> 0'
+  spec.add_runtime_dependency 'pg', '~> 1'
   spec.add_runtime_dependency 'progressbar', '~> 0'
   spec.add_runtime_dependency 'sequel', '>= 4', '< 6'
   spec.add_runtime_dependency 'slop', '~> 3'
 
   spec.add_development_dependency 'bundler'
-  spec.add_development_dependency 'rake', '~> 10'
+  spec.add_development_dependency 'rake', '~> 13'
   spec.add_development_dependency 'rspec', '~> 3'
   spec.add_development_dependency 'ruby-prof', '~> 0'
   spec.add_development_dependency 'cucumber', '~> 1'
