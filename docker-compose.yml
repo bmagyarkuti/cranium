@@ -1,4 +1,10 @@
 services:
+  dev:
+    image: ruby
+    command: tail -f /dev/null
+    volumes:
+      - .:/usr/src/app
+
   greenplum:
     image: kevinmtrowbridge/gpdb-docker
     ports:
