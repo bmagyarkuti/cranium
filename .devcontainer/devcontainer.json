@@ -1,5 +1,10 @@
 {
   "service": "dev",
   "dockerComposeFile": "../docker-compose.yml",
-  "workspaceFolder": "/usr/src/app"
+  "workspaceFolder": "/usr/src/app",
+  "extensions": [
+    "mhutchie.git-graph",
+    "castwide.solargraph",
+    "alexkrechik.cucumberautocomplete"
+  ]
 }

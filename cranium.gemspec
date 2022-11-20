@@ -24,4 +24,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'ruby-prof', '~> 0'
   spec.add_development_dependency 'cucumber', '~> 1'
   spec.add_development_dependency 'dotenv', '~> 2.5'
+  spec.add_development_dependency 'solargraph'
+  spec.add_development_dependency 'yard'
 end
