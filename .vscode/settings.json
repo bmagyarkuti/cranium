@@ -1,3 +1,14 @@
 {
-  "solargraph.useBundler": true
+  "solargraph.useBundler": true,
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "askForPassword": true,
+      "driver": "PostgreSQL",
+      "connectString": "postgres://cranium:cranium@greenplum:5432/cranium",
+      "name": "gp"
+    }
+  ]
 }

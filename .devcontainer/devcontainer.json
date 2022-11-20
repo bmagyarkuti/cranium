@@ -5,6 +5,8 @@
   "extensions": [
     "mhutchie.git-graph",
     "castwide.solargraph",
-    "alexkrechik.cucumberautocomplete"
+    "alexkrechik.cucumberautocomplete",
+    "mtxr.sqltools",
+    "mtxr.sqltools-driver-pg"
   ]
 }
