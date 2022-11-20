@@ -1,11 +1,6 @@
 ---
 include:
 - "**/*.rb"
-exclude:
-- spec/**/*
-- test/**/*
-- vendor/**/*
-- ".bundle/**/*"
 require: []
 domains: []
 reporters:
@@ -19,4 +14,3 @@ formatter:
     extra_args: []
 require_paths: []
 plugins: []
-max_files: 5000
