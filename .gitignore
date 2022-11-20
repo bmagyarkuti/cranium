@@ -4,7 +4,6 @@
 .bundle
 .config
 .yardoc
-.vagrant
 .idea
 .ruby-version
 Gemfile.lock
